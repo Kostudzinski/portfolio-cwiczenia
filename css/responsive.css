@@ -19,7 +19,7 @@
     }
     
         #sekcja2 {
-            height: 200vh;
+            height: 150vh;
     }
     
         #sekcja3 {
@@ -33,6 +33,13 @@
 }
 
 @media screen and (max-width: 768px) {
+    
+        .nav {
+            display: none;
+    }
+        .navmobile {
+            display: block;
+    }
 
         #sekcja1 {
             height: 250vh;
