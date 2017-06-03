@@ -14,30 +14,14 @@ body {
 
 #menulist {
     height: 10px;
+    
 
 
 }
 
-#menu:active #limobile {
-    display: block;
-    
-    
-}
 
-.navmobile {
-    width: 100%;
-    height: 75px;
-    position: fixed;
-    background-color: azure;
-    z-index: 10;
-    text-align: right;
-    line-height: 75px;
-    padding-right: 25px;
-    box-sizing: border-box;
-    display: none;
 
-    
-}
+
 
 
 .list {
@@ -54,17 +38,13 @@ body {
     line-height: 75px;
     z-index: 10;
 
-
 }
 
-#limobile {
-    float: right;
-    width: 50%;
-    height: 20px;
-    line-height: 20px;
-    background-color: rgba(240,	255, 255, 0.8);
+.toggle, [id=drop]{
     display: none;
 }
+
+
 
 /*linki*/
 
