@@ -12,9 +12,22 @@
 
     <link rel="stylesheet" href="css/style.css">
 
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="css/responsive.css">
+
 </head>
 
 <body>
+    <nav class="navmobile">
+        <a id="menu" href="#menulist">MENU</a>
+        <ul id="menulist">
+            <li id="limobile"><a href="#sekcja1">O mnie</a></li>
+            <li id="limobile"><a href="#sekcja2">Umiejętności</a></li>
+            <li id="limobile"><a href="#sekcja3">Portfolio</a></li>
+            <li id="limobile"><a href="#kontakt">Kontak</a></li>
+        </ul>
+    </nav>
 
     <nav class="nav">
         <ul class="list">
@@ -30,8 +43,7 @@
             <h1 id="first"><span>Konrad</span> Studziński</h1>
             <h2>Front-End Developer</h2>
         </div>
-    </header><br><br><br>
-
+    </header>
     <section id="sekcja1">
         <h3 id="omnie"><span id="O">O</span> mnie</h3><br>
 
@@ -58,21 +70,25 @@
         <div id="boxes">
 
             <div id="boxin">
-                <div id="box">
-                    <img src="css/portfolio-grafiki/icons/html5.png" alt="HTML"><br>
-                    <p id="lorem">HTML5</p>
+                <div id="boxesin">
+                    <div id="box">
+                        <img src="css/portfolio-grafiki/icons/html5.png" alt="HTML"><br>
+                        <p id="lorem">HTML5</p>
+                    </div>
+                    <div id="box">
+                        <img src="css/portfolio-grafiki/icons/css3.png" alt="HTML"><br>
+                        <p id="lorem">CSS3</p>
+                    </div>
                 </div>
-                <div id="box">
-                    <img src="css/portfolio-grafiki/icons/css3.png" alt="HTML"><br>
-                    <p id="lorem">CSS3</p>
-                </div>
-                <div id="box">
-                    <img src="css/portfolio-grafiki/icons/js.png" alt="HTML"><br>
-                    <p id="lorem">JavaScript</p>
-                </div>
-                <div id="box">
-                    <img src="css/portfolio-grafiki/icons/jquery.png" alt="HTML"><br>
-                    <p id="lorem">jQuery</p>
+                <div id="boxesin">
+                    <div id="box">
+                        <img src="css/portfolio-grafiki/icons/js.png" alt="HTML"><br>
+                        <p id="lorem">JavaScript</p>
+                    </div>
+                    <div id="box">
+                        <img src="css/portfolio-grafiki/icons/jquery.png" alt="HTML"><br>
+                        <p id="lorem">jQuery</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -81,7 +97,7 @@
     </section>
 
     <section id="sekcja3">
-        <h3 id="omnie"><span id="O">Moje</span> portfolio</h3><br>
+        <h3 id="omnie"><span id="O">Moje</span> portfolio</h3>
 
         <div id="boxin1">
             <div id="box1">
@@ -89,7 +105,7 @@
                     <div id="border">
                         <h3 id="head">Lorem ipsum</h3>
                         <article id="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos maxime at laboriosam nisi deserunt reprehenderit optio debitis.</article><br>
-                        <a href=""><i class="fa fa-2x fa-link"></i></a>                    
+                        <a href=""><i class="fa fa-2x fa-link"></i></a>
                     </div>
                 </div>
             </div>
@@ -98,7 +114,7 @@
                     <div id="border">
                         <h3 id="head">Lorem ipsum</h3>
                         <article id="article">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos maxime at laboriosam nisi deserunt reprehenderit optio debitis.</article><br>
-                        <a href=""><i class="fa fa-2x fa-link"></i></a>                    </div>
+                        <a href=""><i class="fa fa-2x fa-link"></i></a> </div>
                 </div>
             </div>
             <div id="box3">
@@ -111,11 +127,9 @@
                 </div>
             </div>
         </div>
-
-
     </section>
-    
-    <footer id="kontakt">
+
+    <section id="kontakt">
         <div id="footerback">
             <div id="dane">
                 <p id="imie"><span>Konrad</span> Studzinski</p><br>
@@ -123,27 +137,32 @@
                 <p>31-462 Krakow</p><br>
                 <p>e-mail: kostudzinski@gmail.com</p>
                 <p>tel: 693-726-769</p>
-                
-                <div id="form">
-                    <label id="id" for="user-name">Imię</label><br>
-                    <input id="active" type="text" name="name"><br><br>
-
-                    <label id="id" for="user-surname">Nazwisko</label><br>
-                    <input id="active" type="text" name="surname"><br><br>
-
-                    <label id="id" for="mail">Mail</label><br>
-                    <input id="active" type="email" name="mail"><br><br><br><br>
-
-                    <label id="id" for="message">Wiadomość</label><br>
-                    <textarea maxlength="600" id="message" name="message"></textarea><br><br>
-                    
-                    <input id="id" type="submit" value="Send">
-                </div>
-                
             </div>
+            <div id="form">
+                <label id="id" for="user-name">Imię</label><br>
+                <input id="active" type="text" name="name"><br><br>
+
+                <label id="id" for="user-surname">Nazwisko</label><br>
+                <input id="active" type="text" name="surname"><br><br>
+
+                <label id="id" for="mail">Mail</label><br>
+                <input id="active" type="email" name="mail"><br><br><br><br>
+
+                <label id="id" for="message">Wiadomość</label><br>
+                <textarea maxlength="600" id="message" name="message"></textarea><br><br>
+
+                <input id="id" type="submit" value="Send">
+            </div>
+
+
         </div>
+
+    </section>
+
+    <footer>
+        <div id="copyright">Copyright © Konrad Studzinski</div>
     </footer>
-    <div id="copyright">Copyright © Konrad Studzinski</div>
+
 </body>
 
 </html>
